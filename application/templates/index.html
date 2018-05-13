@@ -1,0 +1,11 @@
+{% include "base.html" %}
+<!DOCTYPE html>
+<html>
+<body>
+	<div id="gallery">
+		{% for x in imag %}
+			<a href="/{{x[5]}}"><img  class="mynd" id="{{x[0]}}" src="static/view/{{x[2]}}"/></a>
+		{% endfor %}
+	</div>
+</body>
+</html>

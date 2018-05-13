@@ -1,0 +1,75 @@
+body{
+    background-color: #D3D3D3
+    margin: 0 auto;
+}
+#lo,#si {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    left: 90%;
+    top: 30%;
+    padding: 5px;
+    padding-top: 40px;
+    font-size: 1.5em;
+}
+#popup{
+    position: absolute;
+    position: fixed;
+    width: 200px;
+    height: 320px;
+    display: none;
+    top: 30%;
+    left: 45%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #aaa;
+    overflow: hidden;
+    padding: 30px;
+}
+#close{
+    padding: 5px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.header{
+    height: 130px;
+    background-color: #5A5A5A;
+}
+.logo{
+    background-color: lime;
+    position: relative;
+    margin-top: -4em;
+    margin-left: 1em;
+    border: 3px solid green;
+    border-radius: 200px;
+}
+#gallery{
+    text-align: center;
+}
+.mynd{
+    position: relative;
+    width: 285px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#titill,#upl{
+    position: fixed;
+    color:green;
+}
+#titill{
+    left:150px;
+}
+#upl{
+    left:450px;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+#post{
+    text-align: center
+}
+.mynd2{
+    max-width: 100%
+}

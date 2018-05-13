@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="{{ url_for('static',filename='view/logo.png') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/styles.css') }}">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<title>Memebean</title>
+</head>
+<body>
+	<div class="header">
+		<h1 id="titill">Memebean</h1>
+		<a href="/upload" ><h2 id="upl">Upload</h2></a>
+		<div><p id="upl">{{ ses }}</p> <a href="/login" id="lo">Login</a><a href="/signup" id="lo">Signup</a></div>
+		<a href="/"><img class="logo" width=100 height=100 src="{{url_for('static', filename='view/logo.png')}}"></a>
+
+	</div>
+	<script type="text/javascript" src="{{ url_for('static', filename='scripts/app.js') }}"></script>
+</body>
+</html>
